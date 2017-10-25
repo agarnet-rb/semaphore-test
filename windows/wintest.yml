@@ -2,7 +2,7 @@
 - hosts: windows
   tasks:
 
-  - name: default-website-index
+  - name: Simple file replace
     win_copy:
       src: /etc/ansible/files/TEST_TEST.txt
       dest: "C:\\123\\TEST_TEST.txt"
