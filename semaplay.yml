@@ -5,4 +5,4 @@
   tasks:
 
   - name: Replace comfiguration file
-    template: src=/etc/ansible/templates/foo.j2 dest=/home/ansible/file.conf owner=ansible group=wheel mode=0644
+    template: src=templates/foo.j2 dest=/home/ansible/file.conf owner=ansible group=wheel mode=0644
